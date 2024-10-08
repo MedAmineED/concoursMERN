@@ -1,0 +1,589 @@
+/* Home Page */
+
+
+body{
+	margin:0;
+	padding:0;
+	font-family:arial;
+	font-size:13px;
+	background:#fff*;
+}
+
+.clear{
+	clear: both;
+}
+
+#navbar{
+	background:#F7F7F0;
+	height:70px;
+}
+
+#logo-nav{
+	
+	width:80%;
+	margin:auto;
+	height: 50px;
+}
+
+#logo{
+	float: left;
+}
+
+#logo img{
+	position:absolute;
+	width:60px;
+	height:50px;
+}
+
+#logo h1{
+	padding: 20px 0 0 60px;
+	color:#000;
+	margin:0 !important;
+}
+
+#header-nav{
+	float:right;
+}
+
+#header-nav ul{
+	float:right;
+}
+
+#header-nav li{
+	float:left;
+	padding:3px 5px 0 5px;
+	margin:0 15px;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	list-style:none;
+}
+
+#header-nav a{
+	color:#1C4D7C;
+}
+
+#welcome{
+	/*background-image:url("../img/welcome.jpg");*/
+	padding-top:20px;
+	background:#1C4D7C;
+	
+	height:300px;
+}
+
+#welcome-container{
+	width:60%;
+	margin:auto;
+	
+}
+
+#welcome-container aside{
+	float:left;
+}
+
+#welcome-container article{
+	float:right;
+	color:#fff;
+}
+#welcome-form{
+	width:302px;
+	background:#fff;
+	border-radius: 4px;
+	height:200px;
+}
+
+#welcome-text h1{
+	font-size: 30px;
+}
+
+#welcome-text ul li{
+	font-size:15px;
+	list-style:circle;
+	margin-top:10px;
+}
+
+#btn-depot{
+  padding: 6px 0 6px 0;
+  font: bold 15px Arial;
+  background: #f5f5f5;
+  color: #555;
+  border-radius: 4px;
+  width: 300px;
+  border: 1px solid #ccc;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#form a{
+	text-decoration:none;
+}
+
+#btn-recherche{
+  padding: 6px 0 6px 0;
+  font: bold 15px Arial;
+  background: #1C4D7C;
+  color: #fff;
+  border-radius: 4px;
+  width: 300px;
+  border: 1px solid #ccc;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#item, #ville{
+	width: 280px;
+	margin: 5px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.rechercher{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	border:none;
+    padding:6px 7px 6px 7px;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 15px Arial;
+	/*color:#3399DD; */
+	background-color: #1C4D7C;
+	color:#FFFFFF;
+}
+
+#main-container{
+	margin-top:15px;
+	width:80%;
+	margin:auto;
+	background:#fff;
+}
+
+
+#vente-offre-boutique {
+	width: 80%;
+	margin: auto;
+	padding-top:5px;
+}
+
+#vente-offre-boutique  h2{
+	text-align:center;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+#visite{
+	width: 84%;
+	margin: auto;
+	height: 220px;
+	padding-top: 20px;
+}
+
+#vente-offre-boutique li{
+	list-style:none;
+	padding:3px 5px 0 5px;
+	margin:0 15px;
+	font-size:15px;
+	text-transform:uppercase;
+}
+
+#vente-offre-boutique a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.cercle{
+	margin-left: 70px;
+	width: 150px;
+	height: 90px;
+	border-radius: 100%;
+	background-color: #1C4D7C;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 60px;
+	float: left;
+}
+
+#dernieres-annonces{
+	border: 2px solid #1C4D7C;
+	border-radius: 10px;
+	height: 400px;
+}
+
+#dernieres-annonces h2{
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#annonce{
+	padding: 10px;
+	margin-left: 80px;
+	background-color: #1C4D7C;
+	color:#fff;
+	font-size:15px;
+	font-weight:bold;
+	float: left;
+}
+
+#annonce img{
+	width:231px;
+	height:218px;
+}
+
+#annonce p{
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#apropos h2{
+	text-align:center;
+	text-transform:uppercase;
+}
+
+#apropos{
+	margin-top: 20px;
+	padding-bottom:10px;
+	padding-top: 5px;
+	border-top: 2px solid #1C4D7C;
+
+	height: 160px;
+}
+
+#nous{
+	width:600px;
+	margin:auto;
+	text-align:center;
+	padding-bottom:20px;
+}
+
+.creer_boutique{
+	width: 400px;
+	margin:auto;
+	border:none;
+    padding:6px 10px 6px 10px;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	font:bold 15px Arial;
+	text-align:center;
+	background: #1C4D7C;
+	
+}
+
+.creer_boutique a{
+	text-decoration:none;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#FFFFFF;
+}
+
+/* Fin de la page acceuil */
+
+
+
+
+/*Debut page offres */
+
+#rechercher-offre{
+  	float: right;
+	margin-left:10px;
+	border:none;
+    padding:6px 7px 6px 7px;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:bold 15px Arial;
+	background-color: #1C4D7C;
+	color:red;
+}
+
+
+#header-form{
+	float:right;
+	width:800px;
+}
+
+.float-none{
+	float:none
+}
+
+#form-offre{
+	display: inline-flex;
+	margin:auto;
+	float: right;
+	padding-top: 10px;
+}
+
+#item-offre, #ville-offre{
+	width:210px;
+	margin:5px;
+	height:30px;
+	border-radius:5px;
+}
+
+#header-form input{
+	float:left;
+}
+
+#header-nav-offre{
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:40px;
+	margin-bottom:40px;
+	
+	padding-left:70px;
+}
+
+#header-nav-form ul{
+
+}
+
+#header-nav-offre li{
+	float:left;
+	padding:3px 5px 0 5px;
+	margin:0 25px;
+	font-size:15px;
+	text-transform:uppercase;
+	font-weight:bold;
+	list-style:none;
+}
+
+#header-nav-offre a{
+	color:#1C4D7C;
+	text-decoration:none;
+}
+
+#offre-container{
+	width:80%;
+	margin:auto;
+	margin-top:20px;
+	border-top:2px solid #1C4D7C;
+	background:#fff;
+}
+
+#offre-container-form{
+	margin-top: 20px;
+	padding-top: 10px;
+	border: 2px solid #1C4D7C;
+	background: #1C4D7C;
+	height: 78px;
+	border-radius: 10px;
+}
+
+#offre-container-form-rechercher{
+	float: right;
+	margin-left: 10px;
+	margin-right: 25px;
+	border: none;
+	padding: 6px 7px 6px 7px;
+	border-radius: 2px;
+	box-shadow: 3px 3px 12px #999;
+	font: bold 15px Arial;
+	background-color: #FFFFFF;
+	color: red;
+	width: 120px;
+}
+
+#titre, #categories, #regions, #villes{
+	width:210px;
+	margin:5px;
+	height:30px;
+	border-radius:5px;
+}
+
+#offre-container-form form{
+	display: inline-flex;
+	margin:auto;
+	float: right;
+	padding-top: 10px;
+}
+
+#annonces-pubs{
+	margin-top:40px;
+}
+
+#annonces{
+	float:left;
+	width:70%;
+	
+}
+
+.annonce{
+	border-top: 2px solid #1C4D7C;
+	padding-top:10px;
+}
+
+#photo-annonce{
+	float:left;
+	width:25%;
+	height:110px;
+}
+
+#photo-annonce img{
+	
+	width:200px;
+	height:110px;
+}
+
+#infos-annonce{
+	float: right;
+	width: 70%;
+	background-color: rgb(43, 46, 63);
+	height: 110px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+#titre-date{
+	height:20px;
+	margin-bottom:10px;
+}
+
+.titre-annonce{
+	float:left;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#date{
+	float:right;
+	font-size:15px;
+	font-weight:bold;
+}
+
+
+
+#pubs{
+	float:right;
+	width:25%;
+	margin:auto;
+	border: 2px solid #1C4D7C;
+	border-radius:5px;
+}
+
+.pub img{
+	width:100%;
+}
+
+/*Fin page offres */
+
+/*Debut page boutique */
+
+#new-boutique{
+	margin-top:20px;
+	width:500px;
+}
+
+/* Fin page boutique */
+
+
+/*Debut page connexion */
+
+#connexion-container{
+	margin-top:15px;
+	width:75%;
+	margin:auto;
+	background:#fff;
+}
+
+#connection-compte{
+	margin-top:20px;
+	border-top: 2px solid #1C4D7C;
+}
+
+#connection-new-compte{
+	border: 2px solid #1C4D7C;
+	border-radius:5px;
+	margin-bottom:20px;
+	padding-bottom:20px;
+}
+
+#connection{
+	float:left;
+	margin-left:50px;
+	width:400px;
+	padding-right:60px;
+	border-right: 2px solid #1C4D7C;
+	margin-top:15px;
+}
+
+#new-compte{
+	margin-top:15px;
+	float:right;
+	width:400px;
+	margin-right:50px;
+	
+}
+
+.connexion-new-compte-btn{
+	float: right;
+	margin-right: 100px;
+	margin-top: 10px;
+	border:none;
+    padding:6px 7px 6px 7px;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	font:bold 15px Arial;
+	background-color: #1C4D7C;
+	color:#FFFFFF;
+}
+
+/* Fin page connexion */
+footer{
+	border-top: 2px solid #1C4D7C;
+	background-color:#1C4D7C;
+	height:240px;
+}
+
+#bottom
+{
+	width:80%;
+	margin:auto;
+	font-family:arial;
+	font-size:13px;
+	
+}
+
+.footer-sec
+{
+	width: 31%; /* definir une largeur de 950px */
+	padding: 10px;
+	background-color: #fff; 
+	height:178px;
+	float: left;
+}
+
+.footer-sec ul li
+{
+	font-size:16px;
+	padding-top:5px;
+	list-style:none;
+	width:230px;
+	border-bottom: 2px solid #1C4D7C;
+}
+
+.footer-sec ul li a
+{
+	font-size:16px;
+	list-style:none;
+	text-decoration:none;
+}
+
+#bottom  h2{
+	color:#1C4D7C;
+	text-align:center;
+	text-transform:uppercase;
+	text-align:center;
+}
+
+#copy{
+	margin-top:200px;
+	height:40px;
+	background:#fff;
+	padding-top:0.5px;
+	text-align:center;
+	font-size:15px;
+	font-weight:bold;
+}
