@@ -22,13 +22,14 @@ class User extends Model {
  
     @Column({ 
         type: DataType.STRING, 
-        allowNull: false,  // Assuming login is required 
-        unique: true       // Assuming login should be unique 
+        allowNull: false,
+        unique: true       
     }) 
     declare email: string; 
  
     @Column({ 
         type: DataType.STRING, 
+        allowNull : false
     }) 
     declare pwd: string; 
  

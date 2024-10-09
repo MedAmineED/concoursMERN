@@ -39,7 +39,7 @@ const AuthentificationController = {
 
                 res.status(201).json({ message: 'Utilisateur créé. Veuillez vérifier votre email pour confirmer votre compte.', user });
             }else {
-                res.status(501).json({  message : 'Deja existe'})
+                res.status(409).json({  message : 'Deja existe'})
             }
         } catch (error) {
             res.status(400).json({ message: 'Erreur lors de la création de l\'utilisateur', error });
